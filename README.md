@@ -22,8 +22,8 @@ To suggest a new feature, [click here](https://github.com/DillonPratt/Dell-BIOS-
 https://www.youtube.com/watch?v=lvIUx6yYKY0
 
 ## Notes
-1.	This script will only work for the computer you’re running it on. It's possible to run commands through WinRM is the target computer is configured and listening, but this script has no functionality for external PC bios editing at this point.
-2.	It’s impossible to send an ‘Invalid’ value to the BIOS using this tool. The options are locked to the options available in the BIOS.
+1.	This script will only work for the computer you’re running it on. It's possible to run commands through WinRM if the target computer is configured and listening, but this script has no functionality for external PC bios editing at this point.
+2.	It’s impossible to send an ‘Invalid’ values to the BIOS using this tool. The options are locked to the options available in the BIOS.
 3.	This only works on Dell machines. See 'Contributing' section for compatible PC's
 4.	The script auto-elevates to ‘Run as Administrator’ status. 
 5.	If the Dell BIOS module is not yet installed, you’ll be asked to install it first. You may also be asked to install NuGet if you don’t have it already.
